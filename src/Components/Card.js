@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Card } from 'antd';
 
 const { Meta } = Card;
@@ -11,6 +11,7 @@ export default function CardComponent({
   destination,
   width,
   code,
+  route,
 }) {
   return (
     <Fragment>
@@ -31,7 +32,7 @@ export default function CardComponent({
         </div>
         <div className='Link-Box'>
             <a className='Links' href={code} target = '_blank'>Source Code</a>
-            <p className='Links'>Preview</p>
+            <Link to={route}><p className='Links'>Preview</p></Link>
         </div>
 
       {/* <Meta title= {title} description={description} /> */}
