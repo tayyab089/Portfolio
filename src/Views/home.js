@@ -60,6 +60,10 @@ const Home = () => {
                 route = '/rebelfleet'
                 />
             </div>
+            <div className="Footer">
+                <p className="Footer-Text">Contact: tayyab089@gmail.com</p>
+                <p className="Footer-Text">© M.Tayyab Qamar 2022. All Rights Reserved</p>
+            </div>
         </div>
     )
 };

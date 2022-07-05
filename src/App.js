@@ -15,6 +15,7 @@ import Opslog from './Views/Opslog';
 import RebelFleet from './Views/RebelFleet';
 import FlavourFlip from './Views/FlavourFlip';
 import NavyBomb from './Views/NavyBomb';
+import { Footer } from 'antd/lib/layout/layout';
 
 function App() {
   return (

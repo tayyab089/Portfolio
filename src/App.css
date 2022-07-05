@@ -42,7 +42,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .Card {
@@ -113,9 +113,40 @@
 .Carousel-Item {
   margin: 0 auto;
 }
+/*DescriptionPage==================================================================================END */
 
+/*AboutPage==================================================================================START */
+.About-Container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.Me {
+  height: 70vh;
+  object-fit: contain;
+}
 
+.Self-Description {
+  padding: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+/*AboutPage==================================================================================END */
+.Footer {
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 
+.Footer-Text {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fjalla One', sans-serif;
+}
 /*Media Querries==================================================================================START */
 @media screen and (max-width: 800px) {
   .Card-Container {
@@ -136,6 +167,13 @@
     width: 100vw;
     margin: 0 auto;
   }
+}
+@media screen and (max-width: 900px) {
+.About-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
 }
 @media screen and (max-width: 400px) {
   .Banner {
